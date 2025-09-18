@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clothes Store — Demo</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">Your Logo</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+      </nav>
+      <button class="burger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero-wrap">
+    <div class="container hero">
+      <!-- Ліва колонка: текст -->
+      <div class="hero-left">
+        <h1 class="title">
+          <span class="title-big">Clothes</span>
+          <span class="title-small">Store</span>
+        </h1>
+
+        <p class="lead">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="cta-row">
+          <button class="btn-primary">Get Started</button>
+        </div>
+      </div>
+
+      <!-- Права колонка: ілюстрація + декоративні кружки + хвиля -->
+      <div class="hero-right">
+        <!-- декоративні кружки -->
+        <div class="circle big"></div>
+        <div class="circle mid"></div>
+        <div class="circle small left"></div>
+        <div class="oval a"></div>
+        <div class="oval b"></div>
+
+        <!-- SVG хвиля (червоно-лінійна) -->
+        <svg class="swoosh" viewBox="0 0 800 200" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0,130 C120,60 220,40 360,110 C480,170 620,60 800,90" fill="none" stroke="#e63946" stroke-width="4" stroke-linecap="round" />
+        </svg>
+
+        <!-- Магазин (ілюстрація) -->
+        <div class="shop-wrap">
+          <img src="./images/shop.png.png" alt="Shop illustration">
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
